@@ -1,10 +1,7 @@
 Login Protector
 =========
----
 
 Login Protector is intended as a [WordPress MU] [WPMU] (Must Use) plugin to help mitigate bruteforce attempts. It is not intended as a defintiey solution to an ever existent problem, but is merely a helper for those limited by their hosting providers in what they can do in such situations.
-
----
 
 
 Installation
@@ -14,7 +11,6 @@ Installation
 * If desired, change the `$protected_login_fails` value to a value suitable to your needs
 * You're done, things are rolling on their own!
 
----
 
 What we're doing
 ---
@@ -28,7 +24,6 @@ We then have the second part of the plugin, which checks every time either an ad
 
 We send the 404 code hoping the brute force script is "intelligent", if it is it will identify the code and know that it can't do anything else here and stop trying.
 
----
 
 Caveats
 ----
